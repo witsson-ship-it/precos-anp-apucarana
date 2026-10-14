@@ -7,6 +7,10 @@ PAGE = "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/pr
 CIDADE = "APUCARANA"
 UF = "PARANA"
 UA = {"User-Agent": "Mozilla/5.0"}
+# Postos sempre incluidos (mesmo sem coleta na semana atual): usa o ultimo preco ANP disponivel.
+EXTRAS = ["10601388000130"]  # BRZ SUL / Posto Brasil Sul II, Av. Parana 196
+NOMES = {"10601388000130": "Posto Brasil Sul II (Brz Sul Comercio De Combustiveis Ltda)"}
+MAX_SEMANAS = 8
 
 def get(url):
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read()
@@ -52,9 +56,38 @@ def main():
     if not cur:
         sys.exit("nenhum posto de Apucarana na planilha")
     prev = rows(ls[1][0]) if len(ls) > 1 else {}
+    cache = {0: cur}
+    if len(ls) > 1:
+        cache[1] = prev
+    def week(i):
+        if i not in cache:
+            try:
+                cache[i] = rows(ls[i][0])
+            except Exception:
+                cache[i] = {}
+        return cache[i]
+    for cnpj in EXTRAS:
+        if cnpj in cur:
+            continue
+        for i in range(1, min(len(ls), MAX_SEMANAS)):
+            if cnpj in week(i):
+                p = dict(week(i)[cnpj])
+                p["desatualizado"] = True
+                p["nome"] = NOMES.get(cnpj, p["nome"])
+                prev_price = None
+                for j in range(i + 1, min(len(ls), MAX_SEMANAS + 1)):
+                    if cnpj in week(j):
+                        prev_price = week(j)[cnpj]["preco"]
+                        break
+                p["_prev"] = prev_price
+                cur[cnpj] = p
+                break
     postos = []
     for cnpj, p in sorted(cur.items(), key=lambda kv: kv[1]["preco"]):
-        old = prev.get(cnpj, {}).get("preco")
+        if "_prev" in p:
+            old = p.pop("_prev")
+        else:
+            old = prev.get(cnpj, {}).get("preco")
         p["preco_anterior"] = old
         if old is None:
             p["variacao"] = "novo"
