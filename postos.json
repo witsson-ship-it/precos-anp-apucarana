@@ -1,0 +1,72 @@
+{
+  "combustivel": "Gasolina comum",
+  "cidade": "Apucarana-PR",
+  "periodo_inicio": "2026-10-04",
+  "periodo_fim": "2026-10-10",
+  "fonte": "ANP - Levantamento de Preços de Combustíveis (semanal)",
+  "fonte_url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
+  "arquivo": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/revendas_lpc_2026-10-04_2026-10-10.xlsx",
+  "gerado_em": "2026-10-14T00:06:02+00:00",
+  "postos": [
+    {
+      "cnpj": "07220788000190",
+      "nome": "Dck Comércio De Combustíveis",
+      "razao": "Dck - Comercio De Combustiveis Ltda",
+      "bandeira": "Vibra",
+      "endereco": "Avenida Minas Gerais, 3201",
+      "bairro": "Vila Sao Miguel",
+      "preco": 6.69,
+      "coleta": "2026-10-09",
+      "preco_anterior": 6.69,
+      "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "03198685000110",
+      "nome": "Espanha Comercio De Combustiveis Ltda",
+      "razao": "Espanha Comercio De Combustiveis Ltda",
+      "bandeira": "Raizen",
+      "endereco": "Avenida Minas Gerais, 691",
+      "bairro": "Vila Sao Miguel",
+      "preco": 6.77,
+      "coleta": "2026-10-09",
+      "preco_anterior": 6.77,
+      "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "10946659000199",
+      "nome": "Kreb E Kreb Comercio De Combustiveis E Lubrificantes Ltda",
+      "razao": "Kreb E Kreb Comercio De Combustiveis E Lubrificantes Ltda",
+      "bandeira": "Vibra",
+      "endereco": "Avenida Curitiba, 1428",
+      "bairro": "Centro",
+      "preco": 6.78,
+      "coleta": "2026-10-09",
+      "preco_anterior": 6.78,
+      "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "16924981000101",
+      "nome": "Auto Posto Vila Nova Ltda.",
+      "razao": "Auto Posto Vila Nova Ltda.",
+      "bandeira": "Raizen",
+      "endereco": "Avenida Minas Gerais, 3970",
+      "bairro": "Vila Sao Miguel",
+      "preco": 6.78,
+      "coleta": "2026-10-09",
+      "preco_anterior": 6.78,
+      "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "40631819000171",
+      "nome": "Catuai Brasil - Comercio De Combustiveis Ltda",
+      "razao": "Catuai Brasil - Comercio De Combustiveis Ltda",
+      "bandeira": "Raizen",
+      "endereco": "Avenida Minas Gerais, 508",
+      "bairro": "Jardim Apucarana",
+      "preco": 6.78,
+      "coleta": "2026-10-09",
+      "preco_anterior": 6.78,
+      "variacao": "sem alteração"
+    }
+  ]
+}
