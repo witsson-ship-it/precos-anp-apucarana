@@ -6,7 +6,7 @@
   "fonte": "ANP - Levantamento de Preços de Combustíveis (semanal)",
   "fonte_url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
   "arquivo": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/revendas_lpc_2026-10-04_2026-10-10.xlsx",
-  "gerado_em": "2026-10-14T00:06:02+00:00",
+  "gerado_em": "2026-10-14T11:54:16+00:00",
   "postos": [
     {
       "cnpj": "07220788000190",
@@ -67,6 +67,19 @@
       "coleta": "2026-10-09",
       "preco_anterior": 6.78,
       "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "10601388000130",
+      "nome": "Posto Brasil Sul II (Brz Sul Comercio De Combustiveis Ltda)",
+      "razao": "Brz Sul Comercio De Combustiveis Ltda",
+      "bandeira": "Vibra",
+      "endereco": "Avenida Parana, 196",
+      "bairro": "Vila Cassala",
+      "preco": 6.79,
+      "coleta": "2026-10-02",
+      "desatualizado": true,
+      "preco_anterior": 6.49,
+      "variacao": "subiu"
     }
   ]
 }
