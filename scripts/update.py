@@ -17,7 +17,8 @@ def get(url):
 
 def links():
     html = get(PAGE).decode("utf-8", "ignore")
-    found = re.findall(r'href="([^"]*revendas_lpc_(\d{4}-\d{2}-\d{2})_(\d{4}-\d{2}-\d{2})\.xlsx)"', html)
+    found = re.findall(r'href="([^"]*revendas_lpc_(\d{4}[-_]\d{2}[-_]\d{2})[-_](\d{4}[-_]\d{2}[-_]\d{2})\.xlsx)"', html)
+    found = [(u, a.replace("_", "-"), b.replace("_", "-")) for u, a, b in found]
     uniq = {}
     for u, a, b in found:
         uniq[a] = (u, a, b)
