@@ -1,12 +1,12 @@
 {
   "combustivel": "Gasolina comum",
   "cidade": "Apucarana-PR",
-  "periodo_inicio": "2026-10-11",
-  "periodo_fim": "2026-10-17",
+  "periodo_inicio": "2026-10-18",
+  "periodo_fim": "2026-10-24",
   "fonte": "ANP - Levantamento de Preços de Combustíveis (semanal)",
   "fonte_url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
-  "arquivo": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/revendas_lpc_2026_10_11-2026_10_17.xlsx",
-  "gerado_em": "2026-10-21T10:30:41+00:00",
+  "arquivo": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/revendas_lpc_2026_10_18-2026_10_24.xlsx",
+  "gerado_em": "2026-10-26T19:23:47+00:00",
   "postos": [
     {
       "cnpj": "07220788000190",
@@ -16,9 +16,9 @@
       "endereco": "Avenida Minas Gerais, 3201",
       "bairro": "Vila Sao Miguel",
       "preco": 6.54,
-      "coleta": "2026-10-15",
-      "preco_anterior": 6.69,
-      "variacao": "baixou"
+      "coleta": "2026-10-21",
+      "preco_anterior": 6.54,
+      "variacao": "sem alteração"
     },
     {
       "cnpj": "13652189000149",
@@ -28,9 +28,9 @@
       "endereco": "Rodovia Do Cafe, S/N",
       "bairro": "Rodovia",
       "preco": 6.69,
-      "coleta": "2026-10-12",
-      "preco_anterior": null,
-      "variacao": "novo"
+      "coleta": "2026-10-23",
+      "preco_anterior": 6.69,
+      "variacao": "sem alteração"
     },
     {
       "cnpj": "03198685000110",
@@ -40,9 +40,21 @@
       "endereco": "Avenida Minas Gerais, 691",
       "bairro": "Vila Sao Miguel",
       "preco": 6.77,
-      "coleta": "2026-10-15",
+      "coleta": "2026-10-21",
       "preco_anterior": 6.77,
       "variacao": "sem alteração"
+    },
+    {
+      "cnpj": "10946659000199",
+      "nome": "Kreb E Kreb Comercio De Combustiveis E Lubrificantes Ltda",
+      "razao": "Kreb E Kreb Comercio De Combustiveis E Lubrificantes Ltda",
+      "bandeira": "Vibra",
+      "endereco": "Avenida Curitiba, 1428",
+      "bairro": "Centro",
+      "preco": 6.78,
+      "coleta": "2026-10-21",
+      "preco_anterior": null,
+      "variacao": "novo"
     },
     {
       "cnpj": "11313479000132",
@@ -52,9 +64,9 @@
       "endereco": "Avenida Minas Gerais, 860",
       "bairro": "Jardim Apucarana",
       "preco": 6.78,
-      "coleta": "2026-10-15",
-      "preco_anterior": null,
-      "variacao": "novo"
+      "coleta": "2026-10-21",
+      "preco_anterior": 6.78,
+      "variacao": "sem alteração"
     },
     {
       "cnpj": "16924981000101",
@@ -64,7 +76,7 @@
       "endereco": "Avenida Minas Gerais, 3970",
       "bairro": "Vila Sao Miguel",
       "preco": 6.78,
-      "coleta": "2026-10-15",
+      "coleta": "2026-10-21",
       "preco_anterior": 6.78,
       "variacao": "sem alteração"
     },
@@ -76,7 +88,7 @@
       "endereco": "Avenida Minas Gerais, 508",
       "bairro": "Jardim Apucarana",
       "preco": 6.78,
-      "coleta": "2026-10-15",
+      "coleta": "2026-10-19",
       "preco_anterior": 6.78,
       "variacao": "sem alteração"
     },
@@ -88,21 +100,9 @@
       "endereco": "Avenida Minas Gerais, 568",
       "bairro": "Jd Apucarana",
       "preco": 6.79,
-      "coleta": "2026-10-15",
-      "preco_anterior": null,
-      "variacao": "novo"
-    },
-    {
-      "cnpj": "77758316000171",
-      "nome": "Posto Travain",
-      "razao": ",Travain Transportes E Comercio De Combustíveis Ltda.",
-      "bandeira": "Ipiranga",
-      "endereco": "Avenida Rio De Janeiro, 155",
-      "bairro": "Centro",
-      "preco": 6.79,
-      "coleta": "2026-10-16",
-      "preco_anterior": null,
-      "variacao": "novo"
+      "coleta": "2026-10-21",
+      "preco_anterior": 6.79,
+      "variacao": "sem alteração"
     },
     {
       "cnpj": "10601388000130",
@@ -112,9 +112,9 @@
       "endereco": "Avenida Parana, 196",
       "bairro": "Vila Cassala",
       "preco": 6.79,
-      "coleta": "2026-10-15",
-      "preco_anterior": null,
-      "variacao": "novo"
+      "coleta": "2026-10-21",
+      "preco_anterior": 6.79,
+      "variacao": "sem alteração"
     }
   ]
 }
